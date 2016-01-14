@@ -7,7 +7,6 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
     #url(r'^polls/', include('polls.urls')),
     #url(r'^admin/', include(admin.site.urls)),
-    url(r'^(?P<question_id>[0-9]+)/vote/$', views.vote, name='vote'),
     # ex: /polls/
     #url(r'^$', views.index, name='index'),
     # ex: /polls/5/
